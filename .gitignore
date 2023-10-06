@@ -16,7 +16,6 @@
 .prettierignore
 
 # My ignore files & Folders
-assets
 bootstrap-5.3.2
 design
 README.md
