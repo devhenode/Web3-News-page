@@ -12,7 +12,7 @@ body {
 }
 
 .img-2 {
-    width: 68%;
+    width: 90%;
     height: 45%;
 }
 
@@ -21,6 +21,6 @@ div h5.parag {
     line-height: 1cm;
 }
 
-div.card-2 {
+div.news-tab {
     background-color: rgb(10, 10, 53);
 }
