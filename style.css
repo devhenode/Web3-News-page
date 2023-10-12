@@ -3,7 +3,8 @@
 }
 
 body {
-    font-family: inter;
+    font-family: "inter", sans-serif;
+    font-size: 15px;
     /* font-family: url("https://fonts.google.com/specimen/Inter"); */
 }
 
@@ -22,5 +23,50 @@ div h5.parag {
 }
 
 div.news-tab {
-    background-color: rgb(10, 10, 53);
+    background-color: hsl(240, 100%, 5%);
+}
+
+/* div.headline {
+    width: 300px;
+} */
+
+div h3.display-6 {
+    font-family: inter;
+    font-weight: 800;
+    max-width: 250px;
+    margin-top: 5px;
+    margin-right: 100px;
+    /* padding: 2px; */
+}
+
+div.read {
+    margin-left: 120px;
+    padding: 5px;
+    /* max-width: 320px; */
+    /* text-align: end; */
+}
+div p.text-muted {
+    max-width: 500px;
+    /* margin-right: 40px; */
+}
+
+div h2.display-6 {
+    color: rgb(252, 167, 57); 
+    font-family: "inter";
+    font-weight: 700;
+}
+
+div.headline-1 {
+    margin: 0px 2px 5px 2px;
+    /* border-bottom: dashed 2px white ; */
+}
+
+div h5.news-h {
+    font-family: "inter";
+    font-weight: 700;
+}
+
+div p.news-p {
+    /* border: 0; */
+    padding: 0;
 }
