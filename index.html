@@ -45,16 +45,16 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#intro">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-3">
                 <a class="nav-link" href="#">New</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-3">
                 <a class="nav-link" href="#">Popular</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-3">
                 <a class="nav-link" href="#">Trending</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item mx-3">
                 <a class="nav-link" href="#">Categories</a>
               </li>
           </div>
@@ -63,14 +63,13 @@
     </nav>
 
     <!-- Navbar link -->
-    <div class="offcanvas offcanvas-end  align-center" tabindex="-1" id="main-nav">
+    <div class="offcanvas offcanvas-end align-center" tabindex="-1" id="main-nav">
       <ul class="navbar-nav fs-5">
         <li class="nav-item">
-          <a class="n-2av-link active" href="#intro">Home</a>
+          <a class="nav-link active" href="#intro">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#new">New</a>
-
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#popular">Popular</a>
@@ -90,7 +89,7 @@
       <div class="container-md my-4">
         <div class="row">
           <div class="col-8">
-            <img src="assets/images/image-web-3-desktop.jpg" class="img-fluid rounded" style="width: 800px; height: 350px;" alt="">
+            <img src="assets/images/image-web-3-desktop.jpg" class="img-fluid rounded" style="width: 900px; height: 350px;" alt="">
 
             <div class="d-flex my-2">
               <h3 class="display-6"> The Bright Future of Web 3.0?</h3>
@@ -101,15 +100,16 @@
                   But is it really fulfilling its promise?
                 </p>
     
-                <input class="btn btn-primary my-1" type="submit" value="Read more">
+                <button class="button text-uppercase fw-semibold font-inter">Read More</button>
+                <!-- <input class="btn btn-primary my-1" type="submit" value="Read more"> -->
               </div>
              
             </div>
             
           </div>
-
-          <div class="headline col-5 rounded p-4" style="background-color: rgb(1, 1, 32); color: white; width: 350px;">
-            <h2 class="display-6">New</h2> 
+            <!-- Because I'm using bootstrap I can't get the exact flex position for the image and Blue headline news -->
+          <div class="headline col-5 rounded p-3" style="background-color: rgb(1, 1, 32); color: white; width: 350px;">
+            <h2 class="display-6 mt-3">New</h2> 
 
             <div>
               <div class="headline-1 border-bottom border-dark-subtle my-5">
