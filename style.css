@@ -93,3 +93,11 @@ div p.news-p {
     /* border: 0; */
     padding: 0;
 }
+
+div p.d-news {
+    width: 220px;
+}
+
+div.g-col-2 h5:hover {
+    color: hsl(5, 85%, 63%);   
+}
