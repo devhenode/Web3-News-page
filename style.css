@@ -95,9 +95,22 @@ div p.news-p {
 }
 
 div p.d-news {
+    font-family: "inter";
     width: 220px;
+    line-height: 1.7;
+    font-weight: 70;
 }
 
 div.g-col-2 h5:hover {
     color: hsl(5, 85%, 63%);   
+}
+
+div.img-tag {
+    /* vertical-align: text-top; */
+}
+
+div.h-tag {
+    font-family: "inter";
+    color: grey;
+    font-weight: 400;
 }
