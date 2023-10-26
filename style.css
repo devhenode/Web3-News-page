@@ -118,6 +118,9 @@ div.h-tag {
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
+    body {
+        max-width: 100%;
+    }
     div.row {
         display: grid;
         margin: 0;
@@ -127,11 +130,9 @@ div.h-tag {
         width: -250px;
 
     }
-    div.d-flex {
-        /* text-align: center; */
+    div.d-flex.my-2 {
         flex-direction: column;
         margin: 0px;
-        /* text-align: 100%; */
     }
     div h3.display-6 {
         max-width: 70%;
