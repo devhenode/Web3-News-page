@@ -131,18 +131,22 @@ div.h-tag {
 
     }
     div.d-flex.my-2 {
+        display: block;
         flex-direction: column;
         margin: 0px;
     }
     div h3.display-6 {
         max-width: 70%;
         margin: 0;
-        padding: 0;
+        padding: 10px;
         /* text-align: 100%; */
     }
     div.read {
         margin: 0;
         /* padding: 5px; */
         max-width: 100%;
+    }
+    footercontainer {
+        margin: 0px 0px 10px;
     }
 }
